@@ -2,9 +2,22 @@ package dominio;
 
 public class Cuenta {
 		public int numeroCuenta; //0
-		public String propietario; // null
+		public Cliente propietario; // Una cuenta tiene un cliente
 		public double saldo; // 0.0
 		public int edad;
+
+		/*
+			* Diferentes tipos de cuenta
+			* Cuenta corriente: Cuenta básica permite operaciones sencillas depósitos, retiros, etc.
+			* Cuenta remunerada: Genera remuneración por ahorros
+			* Cuenta nómina: Exige domicialización de la nómina, ofrece reducción de comisiones, promociones
+			*Se utiliza la siguiente nomenclatura: c:corriente, r: remunerada, n:nomina
+		*/
+
+	public char tipoCuenta = 'C';
+
+		// La cuenta se encuentra activa o no
+		public boolean activa; //false
 
 
 		{

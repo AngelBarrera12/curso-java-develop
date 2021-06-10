@@ -18,12 +18,19 @@ public class Cliente{
 	public byte edad; // alamacene los años de vida del cliente
 	private short afiliacion; // 32767
 	private int codigoPostal; // cinco digitos 98605
-	private long CLABE; //18 digitos 
+	public long CLABE; //18 digitos 
+
+	public float sueldo;
+	public double saldo;
+
+	// Un cliente tiene una cuenta
+	public Cuenta cuentaCliente;
+
 
 	// Mostrar los detalles del cliente
-	/*public String mostrarInformacionCliente(){
-		//System.out.println("Nombre: " +nombre+ " apellido: " +apellido);
-	}*/
+	public void mostrarInformacionCliente(){
+		System.out.println("Nombre: " +nombre+ " apellido: " +apellido+ " edad: " +edad+ " afiliacion: " +afiliacion+ " codigo Postal: " +codigoPostal);
+	}
 
 
 }
