@@ -40,6 +40,13 @@ public class Cuenta {
 			propietario = cliente;
 		}*/
 
+		//consultar el saldo de la cuenta
+		public void consultarSaldoCuenta(){
+			double saldoTotal; // almacenar el valor que tiene campo saldo
+			saldoTotal = saldo;
+			System.out.println("saldo total: " +saldoTotal);
+		}
+
 		public void mostrarCuenta() {
 			System.out.println("Cuenta: " + numeroCuenta + " Propietario: " + propietario + " Saldo: " + saldo);
 		}

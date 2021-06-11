@@ -44,7 +44,11 @@ public class Aplicacion {
 
 		String a1, a2, a3;
 		String a="Jesus", e="Jose";
-		//String s, int i;
+		String s;
+
+		System.out.println("........................");
+		System.out.println("10/06/2021 17:03");
+		c1.fromularioRegistroCliente();
 
 		System.out.println("........................");
 

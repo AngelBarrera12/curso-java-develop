@@ -1,0 +1,14 @@
+Variable lcocal / automáticas:
+*temporales o de pila
+	-define dentro de un metodo
+public void setAtributo(tipo nombre){
+	tipoDato atributo;
+-esta definida dentro de un constructor
+-se inicializan antes de usarlas
+
+VARIABLE DE INSTANCIA
+-Se define fuera de metodo pero dentro de la clase
+-creadas cuando se ejecuta la sentencia new X()
+-se inicializan automaticamente de acuerdo con el tipo de dato
+
+static clase 
