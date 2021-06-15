@@ -1,0 +1,34 @@
+Operadores aritméticos:
+	-Son de una familiaridad grande: suma, resta, multiplicacion, division y modulo (+ - / * %)
+	-Se incluyen los operadores unarios: positivo, negativo, incremento, decremento y inversion de valor booleano (+ - ++ -- !)
+	-Los operadores de incremento y decremento se ponen del lado derecho del operando para ocupar el valor incrementado pero no se modifica la variable. Cuando sucede que el operador está del lado izquierdo, se modifica la variable incrementando el valor.
+
+
+Operadores de comparación:
+	-operadores relacionales
+	-ejemplos < <= > >= instanceof b
+	-el operador de igual evalua las referencias en caso de que sean objetos
+	-existe un pool dentro del heap de memoria
+	-para comparar dos objetos se ocupa el método "equals"
+
+Operadores condicionales:
+
+Operadores de bit:
+	-(&, | y hacia arriba)
+	-son aquellos operadores que tienen la posibilidad de comparar a nive bit
+
+Operadores de asignación:
+ -es un operador binario que modifica o asigna  la variable en el lado izquierdo del operador, con el valor en el lado derecho de la ecuacion (= >= += -= *= /= %= &= |= )
+
+Operador termario:
+
+
+En java hay tres tipos de operadores:
+	Unario: 
+		Tienen una operacion vinculada a un valor
+		++operador, --Operador
+	Binario: 
+		Tienen un operador que necesitan dos operandos
+		operando + operando, operando - operando
+	Ternario: 
+		?

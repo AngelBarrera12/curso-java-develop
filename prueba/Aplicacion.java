@@ -51,6 +51,10 @@ public class Aplicacion {
 		c1.fromularioRegistroCliente();
 
 		System.out.println("........................");
+		System.out.println("11/06/2021 17:03");
+		
+
+		System.out.println("........................");
 
 	}
 	{System.out.println("Bloque tercero");}
