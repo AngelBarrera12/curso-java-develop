@@ -45,3 +45,8 @@ Ciclos:
                 3. Ejecutar bloque de código
                 4. Actualizar
             Se ocupa cuando sabemos la cantidad de iteracione que yo quiero hacer
+	    El fori ya es antiguo y fue antes de Java 6
+	    El fore es apartir de Java 6
+	   	la primera parte lleva la variable que tomara cada una de los elementos del array despues siguen dos puntos y el array a recorrer
+		El for mejorado se puede establecer una etiqueta
+		
