@@ -1,0 +1,34 @@
+Sentecias de toma de deciciones
+
+Sentencias de control:
+	* if
+		En base a una expresion lógica que si se comporta como verdadera se realizan determinados procesos o tareas
+	* if - else
+	* if - else - if
+
+Operador ternario:
+	* es el unico operador que tiene 3 operandos
+	* variable = condicion ? solucionVerdadera : solucionFalsa
+
+Switch:
+	* Se crearon para tener relacion de varios casos que tienen el procesamiento comun, una version alternativa del if-else-if
+	* switch(opcion){
+		case constante:
+			// acts
+		default:
+			// en caso de no ser correcto ningun caso
+	}
+	* Tipos de datos soportados en el switch:
+				int / Integer
+				byte / Byte
+				short / Short
+				char / Character
+				String
+				enum
+
+Ciclos:
+	*while
+		Es ideal cuando necesitamos ejecutar codigo varias veces
+	*do-while
+		Es igual al while a diferecnia de que el while termina con punto y coma, y al menos se va a cumplir una sola vez el codigo dentro del DO
+	*for
