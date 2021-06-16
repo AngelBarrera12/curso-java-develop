@@ -32,3 +32,16 @@ Ciclos:
 	*do-while
 		Es igual al while a diferecnia de que el while termina con punto y coma, y al menos se va a cumplir una sola vez el codigo dentro del DO
 	*for
+            Es un ciclo que tiene una estructura:
+		-fori
+
+		for(int i=0; i<5; i++){
+                    //TODO
+		}
+		-fore
+            Etapas:
+                1. Inicializacion
+                2. Evaluar expresion
+                3. Ejecutar bloque de código
+                4. Actualizar
+            Se ocupa cuando sabemos la cantidad de iteracione que yo quiero hacer
